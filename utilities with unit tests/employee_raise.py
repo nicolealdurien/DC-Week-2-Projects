@@ -1,4 +1,4 @@
-#Week 2 Day 2 Activity - EMPLOYEE RAISE
+# Week 2 Day 2 Activity - EMPLOYEE RAISE
 
 class Employee:
     def __init__(self, first_name, last_name, salary):

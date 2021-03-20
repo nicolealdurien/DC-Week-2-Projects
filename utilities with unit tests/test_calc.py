@@ -8,7 +8,7 @@ class CalculatorTests(unittest.TestCase):
     def setUp(self):
         self.c = Calculator()
 
- #per Azam - inside each test, initialize a new calculator and pass in the variables; don't use SetUp function.
+#Per Azam: Inside each test, initialize a new calculator and pass in the variables; don't use SetUp function.
    
     def test_addition(self):
         assert self.c.calc(1, 5, "+") == 6.0
